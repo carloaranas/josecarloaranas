@@ -1,88 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
-.container{
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 50px;
+  display: flex;
+  justify-content: left;
+}
+
+p {
+  margin: 10px 30px 30px 30px;
+  font-size: 18px;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 40px 20px 0 20px;
+  margin: 40px 10px 0 10px;
 }
 
-.container .heading{
+.container .heading {
   width: 50%;
   padding-bottom: 50px;
 }
-.container .heading h3{
-  font-size: 3em;
+
+.container .heading h3 {
+  font-size: 50px;
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: 3px solid #222;
 }
 
-.container .heading h3 span{
-  font-weight: 100;
-}
-.container .box{
- display: flex;
- flex-direction: row;
- justify-content: space-between;
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px 10px;
+  grid-column-gap: px;
+  grid-row-gap: 10px;
 }
 
-.container .box .dream{
+.items img {
+  width: 90%;
+  height: 300px;
+  object-fit: cover;
   display: flex;
-  flex-direction: column;
-  width: 32.5%;
+  justify-content: center;
+  margin: 20px;
 }
 
-.container .box .dream img{
+a:not(.wikipedia) {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  background-color:#222;
+  color: white;
+  padding: 10px;
+  transition: 0.3s;
+  transition-property: background;
+  text-decoration: none;
+}
+
+a:not(.wikipedia):hover {
+  background-color: rgb(97, 97, 97);
+}
+
+footer {
+  color: #222;
   width: 100%;
-  padding-bottom: 15px;
-  border-radius: 5px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
-.container .btn{
-  margin: 40px 0 70px 0;
-  background: #222;
-  padding: 15px 40px ;
-  border-radius: 5px;
-}
-
-.container .btn a{
- color: #fff;
- font-size: 1.2em;
- text-decoration: none;
- font-weight: bolder;
- letter-spacing: 3px;
-}
-
-@media only screen and (max-width: 769px){
-    .container .box{
-   flex-direction: column;
-  }
-
-.container .box .dream{
-  width: 100%;
-}
-
-
-
-
-
-}
-
-@media only screen and (max-width: 643px){
-.container .heading{
+@media only screen and (max-width: 643px) {
+.container .heading {
   width: 100%;
 }
-.container .heading h3{
-  font-size: 1em;
-
 }

@@ -21,7 +21,7 @@ body {
     padding: 0px;
 }
 
-nav a{
+nav a:not(#aboutme){
     color: #fff;
     font-size: large;
     padding: 5px 5px;
@@ -35,7 +35,7 @@ nav a{
     transition-property: background;
 }
 
-a:hover {
+nav a:hover:not(#aboutme) {
     background-color: #ff7497;
     padding: 5px 5px;
     margin: 5px;
@@ -76,15 +76,16 @@ ul {
     margin-bottom: 30px;
     font-weight: 600;
     letter-spacing: 1px;
-    line-height: 50px; 
+    line-height: 30px; 
     font-size: 24px;
 }
 
 h4 {
     color: #252525;
     margin-left: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-top: 40px;
+    margin-right: 50px;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 30px;
@@ -99,6 +100,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.aboutme {
+    margin: 90px 20px 30px 50px;
+    padding: 15px;
+    color: #f7f0f0;
+    background-color: #fa2057;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.aboutme:hover {
+    background: #5901cc;
 }
 
 .creator-img {
