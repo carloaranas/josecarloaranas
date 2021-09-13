@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: "Raleway", sans-serif;
+    color: rgb(36, 36, 36);
+    font-size: 25px;
+    line-height: 50px;
+    align-content: center;
+    justify-content: center;
+    color: rgb(31, 71, 122);
+    display: inline-flexbox;
+}
+
+body {
+    background: linear-gradient(333deg, #ff6f4b 0%, #2999f5 100%);
+}
+
+form {
+    background-color: rgb(236, 236, 236);
+    border: 10px solid rgb(9, 57, 121);
+    border-radius: 50px;
+    margin: 100px;
+    padding: 40px;
+    opacity: 70%;
+    justify-content: center;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+    display: inline-flexbox;
+    margin-right: 100px; 
+    font-weight: 500;
+}
+
+select[type=text], input[type=text], input[type=email] {
+    width: 90%;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+input[type=date], input[type=tel], input[type=num] {
+    margin-left: -60px;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+input[type=radio] {
+    margin-left: -200px;
+    margin-bottom: 5px;
+    border: 0px;
+    width: 30%;
+    height: 1.5em;
+}
+
+button {
+    margin: 100px 20px 20px 250px;
+    padding: 20px 60px;
+    font-size: large;
+}
+
+h1{
+    font-size: 60px;
+    padding: 0px 40px 40px 0px;
+    border-bottom: 5px solid rgb(9, 57, 121);
+}

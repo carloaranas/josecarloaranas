@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Form</title>
+    <link rel="stylesheet" href="vaccination.css">
+</head>
+
+<body>
+    <form action="results.html" method="GET">
+
+        <h1>COVID Vaccination Scheduling Form</h1>
+
+        <div>
+            <label for="first name">First Name:</label>
+            <input type="text" name="first name" id="first name" required>
+        </div>
+
+        <div>
+            <label for="middle name">Middle Name:</label>
+            <input type="text" name="middle name" id="middle name" required>
+        </div>
+
+        <div>
+            <label for="last name">Last Name:</label>
+            <input type="text" name="last name" id="last name" required>
+        </div>
+
+        <div>
+            <label for="suffix">Suffix:</label>
+            <input type="text" name="suffix" id="suffix">
+        </div>
+
+        <div>
+            <label for="date">Date of Birth:</label>
+            <input type="date" name="date" id="date" placeholder="username" required>
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="150" step="1" required>
+        </div>
+
+        <div>
+            <h5>Gender:</h5>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="09xx xxx xxxx" required>
+        </div>
+
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="ex. juandelacruz123@gmail.com" required>
+        </div>
+
+        <div>
+            <h3>Current Residence</h3>
+
+            <div>
+                <label for="address">Address: (House No., Street Name, Village, Barangay, etc.)</label>
+                <input type="text" name="address" id="address" required>
+            </div>
+
+            <div>
+                <label for="city/municipality">City/Municipality:</label>
+                <input type="text" name="city/municipality" id="city/municipality" required>
+            </div>
+
+            <div>
+                <label for="province">Province:</label>
+                <input type="text" name="province" id="province" required>
+            </div>
+
+        </div>
+
+        <div>
+            <label for="occupation">Occupation:</label>
+            <input type="text" name="occupation" id="occupation" required>
+        </div>
+
+        <div>
+            <h3>Current Work Address</h3>
+
+            <div>
+                <label for="work address">Address: (House No., Street Name, Village, Barangay, etc.)</label>
+                <input type="text" name="work address" id="work address" required>
+            </div>
+
+            <div>
+                <label for="work city/municipality">City/Municipality:</label>
+                <input type="text" name="work city/municipality" id="work city/municipality" required>
+            </div>
+
+            <div>
+                <label for="work province">Province:</label>
+                <input type="text" name="work province" id="work province" required>
+            </div>
+
+        </div>
+
+        <div>
+            <label for="priority group">Priority Group:</label>
+            <select type="text" name="priority group" id="priority group" placeholder="Select Priority Group" required>
+                <option value="A1">A1 Health Care Workers</option>
+                <option value="A2">A2 Senior Citizens</option>
+                <option value="A3">A3 Adult with Comorbidity</option>
+                <option value="A4">A4 Frontline Personnel in Essential Sector</option>
+                <option value="A5">A5 Poor Population</option>
+                <option value="B1">B1 Teachers and Social Workers</option>
+                <option value="B2">B2 Other Government Workers</option>
+                <option value="B3">B3 Other Essential Workers</option>
+                <option value="B4">B4 Socio-Demographic Groups</option>
+                <option value="B5">B5 Overseas Filipino Workers</option>
+                <option value="B6">B6 Other Remaining Workforce</option>
+                <option value="C">C Rest of the Population</option>
+            </select>    
+        </div>
+
+        <div>
+            <h5>Do you have an allergy to vaccines or components of vaccines?</h5>
+            <label for="yes">Yes</label>
+            <input type="radio" name="allergy" id="yes" value="yes">
+            <label for="no">No</label>
+            <input type="radio" name="allergy" id="no" value="no">
+        </div>
+
+        <div>
+            <h5>Are you a person with Comorbidity?</h5>
+            <label for="yes">Yes</label>
+            <input type="radio" name="allergy" id="yes" value="yes">
+            <label for="no">No</label>
+            <input type="radio" name="allergy" id="no" value="no">
+        </div>
+
+        <button type="reset">Clear</button>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>
