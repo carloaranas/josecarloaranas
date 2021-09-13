@@ -7,10 +7,11 @@
     line-height: 40px;
     align-content: center;
     text-justify: auto;
+    font-weight: 400;
 }
 
 body {
-    background-color: #d69d00;
+    background: linear-gradient(#fabd15, #ff8800);
   }
 
   h1 {
@@ -34,6 +35,7 @@ body {
   p {
     padding-left: 3em;
     padding-right: 3em;
+    margin-bottom: 40px;
   }
 
   h3, iframe {
@@ -42,5 +44,16 @@ body {
   }
 
   a {
-    margin-left: 200px;
+    margin-left: 1250px;
+    margin-bottom: 500px;
+    background-color: #f59f3d;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+    text-decoration: none;
   }
+
+  a:hover {
+    background-color: #f1c241;
+}
