@@ -10,37 +10,34 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <h3 class="logo"><span>Car</span>lo</h3>
-        <ul class="navmenu">
-            <li><a href=".home">Home</a></li>
-            <li><a href=".aboutme">About Me</a></li>
-            <li><a href="#">Achievements</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
-    </div>
+    <section>
+        <header>
+            <div class="navbar">
+                <h3 class="logo"><span>Car</span>lo</h3>
+                <ul class="navmenu">
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
 
-    <section class="home">
-        <div class="content">
-            <h1>Welcome!</h1>
-            <h4>I am</h4>
-            <div class="rectangle2"></div>
-            <h2>Carlo</h2>
+        <div class="content" id="home">
+            <h2>Welcome!<br><span>I am Carlo</span></h2>
             <h5>IT Student,</h5>
             <h6>Future Programmer</h6>
-            <img src="carlo2.jpg" class="img" />
+            <img src="carlo2.jpg" class="homeimg" />
             <div>
-                <button type="button">Learn More</button>
+                <button type="button"><a href="#aboutme">Learn More</a></button>
             </div>
         </div>
     </section>
 
-    <section>
-    <div class="aboutme">
-        <h1>About Me</h1>
+    <section class="aboutme" id="aboutme">
+        <h1 class="abouthead">About Me</h1>
         <div class="rectangle"></div>
-        <img src="carlo.jpg" alt="A picture of Jose Carlo Aranas" class="img" />
+        <img src="carlo.jpg" alt="A picture of Jose Carlo Aranas" class="aboutimg" />
         <ul>
             <li>Name: Jose Carlo L. Aranas</li>
             <li>Age: 20 Years Old</li>
@@ -50,9 +47,94 @@
             <li>Languages Spoken: English, Filipino, Cebuano</li>
         </ul>
         <p>I am currently a Second Year student studying BS in Information Technology in the University of the
-            Immaculate Conception. I also am taking courses that help enhance my skills as a competent programmer</p>
-        <p></p>
-    </div>
+            Immaculate Conception. I also am taking courses that help enhance my skills as a competent programmer.<br><br>I am also an enthusiast of Graphics Design, as well as Logo Making.</p>
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="educationhead">Educational Background</h1>
+        <div class="rectangle"></div>
+        <table class="educationtable">
+            <thead>
+              <tr>
+                <th>Education Level</th>
+                <th>School</th>
+                <th>Year Graduated</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&nbsp;Pre School</td>
+                    <td>&nbsp;Frisbee 10th Montessori</td>
+                    <td>&nbsp;2006-2007</td>
+                  </tr>
+              <tr>
+                <td>&nbsp;Elementary</td>
+                <td>&nbsp;University of the Immaculate Conception</td>
+                <td>&nbsp;2012-2013</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Junior High School</td>
+                <td>&nbsp;University of the Immaculate Conception</td>
+                <td>&nbsp;2016-2017</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Senior High School</td>
+                <td>&nbsp;University of the Immaculate Conception</td>
+                <td>&nbsp;2018-2019</td>
+              </tr>
+              <tr>
+                <td>&nbsp;College</td>
+                <td>&nbsp;University of the Immaculate Conception</td>
+                <td>&nbsp;N/A</td>
+              </tr>
+              
+            <tbody>
+          </table>
+    </section>
+
+    <section class="skills" id="skills">
+        <h1 class="skillshead">Skills</h1>
+        <div class="rectangle"></div>
+        <header>Programming</header>
+            <div class="lang">
+                <div class="item">
+                    <img src="java.png" width="100px" height="100px"/>                   
+                </div>
+                <div class="item">
+                    <img src="html.png" width="100px" height="100px"/>                   
+                </div>
+                <div class="item">
+                    <img src="css.png" width="100px" height="100px"/>                   
+                </div>
+                <div class="item">
+                    <img src="javascript.png" width="100px" height="100px"/>                 
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        <header>Graphics and Logo Designing</header>
+        <div class="works">
+            <div class="items">
+                <img src="work1.png" width="275px" height="350px"/>                   
+            </div>
+            <div class="items">
+                <img src="work2.png" width="275px" height="350px"/>                   
+            </div>
+            <div class="items">
+                <img src="work3.jpg" width="275px" height="250px"/>                   
+            </div>
+            <div class="items">
+                <img src="work4.jpg" width="275px" height="250px"/>                 
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="contacthead">Contact Me</h1>
+        <div class="rectangle"></div>
+        
     </section>
 </body>
 
