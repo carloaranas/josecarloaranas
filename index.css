@@ -36,7 +36,7 @@ nav a:not(#aboutme){
 }
 
 nav a:hover:not(#aboutme) {
-    background-color: #ff7497;
+    background-color: #575A89;
     padding: 5px 5px;
     margin: 5px;
 }
@@ -50,7 +50,7 @@ h2 {
 }
 
 h1 {
-    color:#fa2057;
+    color:#F9A826;
     margin-left: 50px;
     margin-bottom: 40px;
     font-weight: 900;
@@ -71,7 +71,7 @@ h3 {
 }
 
 ul {
-    color: #5901cc;
+    color: #403E56;
     margin-left: 70px;
     margin-bottom: 30px;
     font-weight: 600;
@@ -106,7 +106,7 @@ header {
     margin: 90px 20px 30px 50px;
     padding: 15px;
     color: #f7f0f0;
-    background-color: #fa2057;
+    background-color: #F9A826;
     text-decoration: none;
     border-radius: 10px;
     transition: 0.3s;
@@ -114,7 +114,7 @@ header {
 }
 
 .aboutme:hover {
-    background: #5901cc;
+    background: #575A89;
 }
 
 .creator-img {
@@ -132,7 +132,7 @@ header {
 .fixed-header, .fixed-footer{
     width: 100%;
     position: fixed;        
-    background: linear-gradient(333deg, #5901cc 0%, #fa2057 100%);
+    background: linear-gradient(90deg, #FABF61 0%, #FFFFFF 100%);
     color: #fff;
 }
 
@@ -159,7 +159,7 @@ header {
 .rectangle {
     height: 600px;
     width: 5px;
-    background: linear-gradient(333deg, #5901cc 0%, #fa2057 100%);
+    background: linear-gradient(90deg, #FABF61 0%, #FFFFFF 100%);
     margin: 50px;
     margin-top: 80px;
     margin-left: 80px;
@@ -169,7 +169,7 @@ header {
 .rectangle2 {
     height: 3px;
     width: 825px;
-    background: linear-gradient(333deg, #5901cc 0%, #fa2057 100%);
+    background: linear-gradient(90deg, #FABF61 0%, #FFFFFF 100%);
     margin: 20px;
     margin-top: 30px;
     margin-left: 50px;
@@ -179,7 +179,7 @@ header {
 .rectangle33 {
     height: 100px;
     width: 825px;
-    background: linear-gradient(333deg, #5901cc 0%, #fa2057 100%);
+    background: linear-gradient(90deg, #FABF61 0%, #FFFFFF 100%);
     margin: 0px;
     margin-top: 60px;
     margin-left: 50px;
