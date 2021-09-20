@@ -92,7 +92,7 @@ h1 {
 
 .rectangle {
     position: absolute;
-    width: 450px;
+    width: 900px;
     height: 4px;
     left: 72px;
     top: 70%;
@@ -121,4 +121,16 @@ h1 {
     left: 550px;
     top: 90%;
     line-height: 44px;
+}
+
+p {
+    position: absolute;
+    color: #575A89;
+    font-weight: 600;
+    font-size: 18px;
+    left: 650px;
+    top: 220%;
+    line-height: 30px;
+    width: 50%;
+    text-align: justify;
 }

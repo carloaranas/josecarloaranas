@@ -14,6 +14,12 @@ body {
     height: 100vh;
 }
 
+section {
+    min-height: 100vh;
+    padding: 1rem 0;
+    display: block;
+}
+
 .navbar {
     width: 90%;
     margin: auto;
@@ -60,15 +66,19 @@ body {
     top: 16px;
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 60px;
     line-height: 44px;
     letter-spacing: -0.115em;
-    color: #F9A826;
+    color: white;
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
     cursor: pointer;
+}
+
+.logo span {
+    color:#F9A826;
 }
 
 .content {
@@ -83,7 +93,7 @@ body {
     position: absolute;
     height: 500px;
     width: 500px;
-    left: 900px;
+    left: 800px;
     top: 50px;
     filter: drop-shadow(0 0 0.75rem #3a3a3a);
     opacity: 90%;
@@ -95,7 +105,7 @@ h1 {
     font-size: 90px;
     font-weight: 600;
     color: #403E56;
-    position: absolute;
+    position: relative;
     width: 326px;
     height: 88px;
     left: 72px;
@@ -132,7 +142,7 @@ h2 {
     color: #575A89;
 }
 
-.rectangle {
+.rectangle2 {
     position: absolute;
     width: 380px;
     height: 4px;
@@ -176,7 +186,7 @@ button {
     padding: 10px;
     width: 140px;
     height: 50px;
-    left: 97px;
+    left: -180px;
     top: 375px;
     text-align: center;
     margin: 5px 15px;
@@ -198,4 +208,22 @@ button:hover {
     border: 3px solid #F9A826;
     background: #F9A826;
     color: #403E56;
+}
+
+.rectangle {
+    position: relative;
+    width: 380px;
+    height: 4px;
+    left: 97px;
+    top: 312px;
+    background: #403E56;
+}
+
+.aboutme .img {
+    position: relative;
+    height: 450px;
+    width: 325px;
+    left: 72px;
+    filter: drop-shadow(0 0 0.75rem #3a3a3a);
+    opacity: 90%;
 }
