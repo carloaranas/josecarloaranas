@@ -81,10 +81,14 @@ body {
 
 .content .img {
     position: absolute;
-    height: 550px;
-    width: 700px;
-    left: 700px;
-
+    height: 500px;
+    width: 500px;
+    left: 900px;
+    top: 50px;
+    filter: drop-shadow(0 0 0.75rem #3a3a3a);
+    opacity: 90%;
+    border-radius: 50%;
+    border: 20px solid #575A89;
 }
 
 h1 {
